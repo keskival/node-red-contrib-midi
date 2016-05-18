@@ -4,10 +4,13 @@ Summary
 This is a simple Node-RED module playing MIDI sounds when it receives a Node-RED message.
 
 Currently it plays a sequence of three grand piano notes. Of course it is easy to customize this to
-play what ever based on the message content.
+play whatever based on the message content.
 
 This could be useful in making silent (pun intended) information happening on the network observable, or
 for making sound effects for specific events. Beeps are so 1990s anyhow.
+
+Imagine castanets for common events, and taiko drums for more dramatic ones on a production line.
+Speech and song synthesis (Vocaloid) could be used in the same way.
 
 Usage
 =====
