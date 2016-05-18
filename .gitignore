@@ -1,0 +1,6 @@
+.project
+.pydevproject
+lib/
+node_modules/
+npm-debug.log
+
