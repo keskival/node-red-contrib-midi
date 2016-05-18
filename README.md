@@ -27,6 +27,13 @@ Sounds should ensue.
 
 Potential problems: Currently this is hard coded to use the first MIDI device after the midi-through port, that is the Fluidsynth port. After all, all my computers and my Raspberry Pi have this arrangement. Your mileage might vary. See the code.
 
+Instruments
+===========
+
+See this list: [https://en.wikipedia.org/wiki/General_MIDI_Level_2](https://en.wikipedia.org/wiki/General_MIDI_Level_2)
+
+Note: You must subtract 1 from the instrument number, because python-rtmidi starts counting from 0.
+
 Screenshot
 ==========
 
